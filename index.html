@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        p{
+        text-transform: uppercase;
+        position: absolute;
+        position: inherit;
+        top:70px;
+        left: 70px;
+       
+        }
+        .header p{
+            position: inherit;
+            top:20px;
+            left:0px;
+            font-size:large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            color:black;
+        }
+        .footer p{
+            position: absolute;
+            top:10px;
+            left:5px;
+        }
+        
+        .header{
+            height:500px;
+            width:600px;
+            background-color:blueviolet;
+            border:5px solid black;
+            position: relative;
+            text-align: center;
+            margin-top: 80px;
+            border-radius: 10%;
+        }
+        .left{
+            height:300px;
+            width:300px;
+            background-color: blueviolet;
+            float: left;
+            position: absolute;
+            top:180px;
+            left:40px;
+            border: 2px solid black;
+        }
+        .right{
+            height:300px;
+            width:250px;
+            background-color: blue;
+            float:right;
+            position: absolute;
+            top:180px;
+            left:340px;
+            border:2px solid black;
+
+        }
+        .footer{
+            clear:both;
+            height: 50px;
+            width:590px;
+            background-color:darkkhaki;
+            position: absolute;
+            top:500px;
+            left:20px;
+            border-radius: 20%;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p> Our website</p>
+        
+    </div>
+    <div class="left">
+        <a href="https://www.amazon.com"> <img src="images/online.jpg" width="300px" height="300px"/></a>
+        
+    </div>
+    <div class="right">
+       <a href="images/off.jpg"> <img src="images/offline.jpg" width="250px" height="300px"></a>
+    </div>
+    <div class="footer">
+        <p> Copyright © Birunthuja</p>
+    </div>
+
+</body>
+</html>
